@@ -7,7 +7,6 @@ using namespace std;
 
 int main()
 {
-
     string word;
     int wordlenght, typ;
     cout<<"Bitte gib das Wort ein:"<<endl;
@@ -21,7 +20,7 @@ int main()
     clear();
     if(wordlenght<=5)
      typ=1;
-     else
+    else
      typ=2;
     }
 
