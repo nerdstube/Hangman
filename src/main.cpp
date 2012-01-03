@@ -1,11 +1,9 @@
 #include <iostream>
 #include <cstdlib>
 #include "hangman.h"
+#include "os.h"
 
 using namespace std;
-
-void clear();
-void ending();
 
 int main()
 {
@@ -39,23 +37,10 @@ int main()
 
     ending();
     return 0;
+
+
+    clear();
+    ending();
 }
 
-void clear()
-{
-#ifdef WIN32
-system("cls");
-#else
-system("clear");
-#endif
-}
 
-void ending()
-{
-#ifdef WIN32
-system("stop");
-#else
-cout<<endl<<endl;
-cout<<"HAHA! Ich bin ein Linux ich brauch kein System(\"stop\")";
-#endif
-}
