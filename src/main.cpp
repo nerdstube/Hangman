@@ -37,10 +37,6 @@ int main()
 
     ending();
     return 0;
-
-
-    clear();
-    ending();
 }
 
 
