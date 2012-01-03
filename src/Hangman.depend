@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1324495079 source:/mnt/data1/Documents/C++/Hangman/Hangman/main.cpp
+	<iostream>
+	<cstdlib>
+	"hangman.h"
+
+1324494821 /mnt/data1/Documents/C++/Hangman/Hangman/hangman.h
+
