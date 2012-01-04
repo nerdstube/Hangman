@@ -14,7 +14,7 @@ class Hangman {
             int versuche;
 
     public:
-            void loesen();
+            void loesen(char);
 
             string getword();
             void setword(string);

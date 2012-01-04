@@ -29,11 +29,25 @@ int main()
     case 1:
     {
       cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 5 Versuche zum lösen!"<<endl;
+      char bustabe;
       Hangman typ;
+      cout<<"Bitte gib nun dein ersten Bustaben ein: "<<endl;
+      cin>>bustabe;
       typ.setword(word);
       typ.setlaenge(wordlenght);
       typ.settry(5);
-      typ.loesen();
+      typ.loesen(bustabe);
+
+
+
+
+
+
+
+
+
+
+
     }
       break;
     case 2:
@@ -43,7 +57,7 @@ int main()
       typ.setword(word);
       typ.setlaenge(wordlenght);
       typ.settry(7);
-      typ.loesen();
+      //typ.loesen(bustabe);
     }
       break;
     }
