@@ -28,21 +28,25 @@ int main()
     {
     case 1:
     {
-      cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 5 Versuche zum lösen!"<<endl;
+      int count;
+      count=wordlenght+3;
+      cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast "<<count<<" Versuche zum lösen!"<<endl;
       Hangman typ;
       typ.setword(word);
       typ.setlaenge(wordlenght);
-      typ.settry(5);
+      typ.settry(count);
       typ.loesen();
     }
       break;
     case 2:
     {
-      cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 7 Versuche zum lösen!"<<endl;
+      int count;
+      count=wordlenght+5;
+      cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast "<<count<<" Versuche zum lösen!"<<endl;
       Hangman typ;
       typ.setword(word);
       typ.setlaenge(wordlenght);
-      typ.settry(7);
+      typ.settry(count);
       typ.loesen();
     }
       break;

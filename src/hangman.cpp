@@ -36,18 +36,30 @@ void Hangman::settry(int l)
 
 void Hangman::loesen()
 {
+    string ergebnis[Hangman::getlong()];
     char buchstabe;
     int vergleich;
     int wh=0;
+    for (int i = 0; i < Hangman::getlong(); i++)
+    ergebnis[i]="?";
     while(wh<Hangman::gettry())
     {
+        if (wh == 0)
+        cout <<"Lets go!"<<endl;
+        else
+         for (int i = 0; i < Hangman::getlong(); i++)
+         cout<<ergebnis[i];
+         cout<<endl;
+
      cout<<"Bitte geben Sie ihren Buchstaben ein: "<<endl;
      cin>>buchstabe;
+     clear();
         for (int i = 0; i < Hangman::getlong(); i++)
         {
             if (word[i] == buchstabe)
                 {
                 vergleich=1;
+                ergebnis[i]=buchstabe;
                 break;
                 }
             else
