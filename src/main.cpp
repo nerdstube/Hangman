@@ -27,11 +27,24 @@ int main()
     switch(typ)
     {
     case 1:
+    {
       cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 5 Versuche zum lösen!"<<endl;
-
+      Hangman typ;
+      typ.setword(word);
+      typ.setlaenge(wordlenght);
+      typ.settry(5);
+      typ.loesen();
+    }
       break;
     case 2:
+    {
       cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 7 Versuche zum lösen!"<<endl;
+      Hangman typ;
+      typ.setword(word);
+      typ.setlaenge(wordlenght);
+      typ.settry(7);
+      typ.loesen();
+    }
       break;
     }
 

@@ -3,25 +3,26 @@
 #include <iostream>
 #include <cstdlib>
 
+using namespace std;
 
 class Hangman {
 
     private:
 
-            std::string word;
+            string word;
             int laenge;
             int versuche;
 
     public:
-            void loesen(std::string, int, int);
+            void loesen();
 
-            std::string getword();
-            std::string setword();
+            string getword();
+            void setword(string);
 
             int getlong();
-            int setlong();
+            void setlaenge(int);
 
             int gettry();
-            int settry();
+            void settry(int);
 };
 #endif // HANGMAN_H_INCLUDED
