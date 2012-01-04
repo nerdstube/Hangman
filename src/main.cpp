@@ -28,6 +28,7 @@ int main()
     {
     case 1:
       cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 5 Versuche zum lösen!"<<endl;
+
       break;
     case 2:
       cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 7 Versuche zum lösen!"<<endl;
