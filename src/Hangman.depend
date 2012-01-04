@@ -6,7 +6,7 @@
 
 1324494821 /mnt/data1/Documents/C++/Hangman/Hangman/hangman.h
 
-1325688539 source:/home/bomba/Git/Hangman/src/main.cpp
+1325694671 source:/home/bomba/Git/Hangman/src/main.cpp
 	<iostream>
 	<cstdlib>
 	"hangman.h"
@@ -16,9 +16,14 @@
 	<iostream>
 	<cstdlib>
 
-1325688540 /home/bomba/Git/Hangman/src/os.h
+1325694676 /home/bomba/Git/Hangman/src/os.h
 
-1325688453 source:/home/bomba/Git/Hangman/src/hangman.cpp
+1325694560 source:/home/bomba/Git/Hangman/src/hangman.cpp
 	"hangman.h"
+	"os.h"
+
+1325694621 source:/home/bomba/Git/Hangman/src/os.cpp
+	<iostream>
+	<cstdlib>
 	"os.h"
 

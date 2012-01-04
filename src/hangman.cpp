@@ -36,8 +36,8 @@ void Hangman::settry(int l)
 
 void Hangman::loesen(char w)
 {
-    char bustabe;
-    bustabe = w;
-    cout<<bustabe;
+    char buchstabe;
+    buchstabe = w;
+    cout<<buchstabe<<endl;
     clear();
 }

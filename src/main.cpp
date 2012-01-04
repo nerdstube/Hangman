@@ -31,23 +31,13 @@ int main()
       cout<<"Dein Wort hat "<<wordlenght<< " Bustaben. Du hast 5 Versuche zum lösen!"<<endl;
       char bustabe;
       Hangman typ;
-      cout<<"Bitte gib nun dein ersten Bustaben ein: "<<endl;
-      cin>>bustabe;
       typ.setword(word);
       typ.setlaenge(wordlenght);
       typ.settry(5);
+
+      cout<<"Bitte gib nun dein ersten Bustaben ein: "<<endl;
+      cin>>bustabe;
       typ.loesen(bustabe);
-
-
-
-
-
-
-
-
-
-
-
     }
       break;
     case 2:
