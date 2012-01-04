@@ -48,6 +48,7 @@ void Hangman::loesen()
             if (word[i] == buchstabe)
                 {
                 vergleich=1;
+                break;
                 }
             else
                 {
