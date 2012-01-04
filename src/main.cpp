@@ -43,7 +43,7 @@ int main()
       typ.setword(word);
       typ.setlaenge(wordlenght);
       typ.settry(7);
-      //typ.loesen(bustabe);
+      typ.loesen();
     }
       break;
     }
